@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/perniayenni.github.io/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/perniayenni.github.io/static/js/main.ccf845e3.chunk.js",
-    "main.js.map": "/perniayenni.github.io/static/js/main.ccf845e3.chunk.js.map",
+    "main.js": "/perniayenni.github.io/static/js/main.8679e639.chunk.js",
+    "main.js.map": "/perniayenni.github.io/static/js/main.8679e639.chunk.js.map",
     "runtime-main.js": "/perniayenni.github.io/static/js/runtime-main.adf37629.js",
     "runtime-main.js.map": "/perniayenni.github.io/static/js/runtime-main.adf37629.js.map",
-    "static/js/2.09a915c5.chunk.js": "/perniayenni.github.io/static/js/2.09a915c5.chunk.js",
-    "static/js/2.09a915c5.chunk.js.map": "/perniayenni.github.io/static/js/2.09a915c5.chunk.js.map",
+    "static/js/2.c2c62aec.chunk.js": "/perniayenni.github.io/static/js/2.c2c62aec.chunk.js",
+    "static/js/2.c2c62aec.chunk.js.map": "/perniayenni.github.io/static/js/2.c2c62aec.chunk.js.map",
     "static/js/3.531b081e.chunk.js": "/perniayenni.github.io/static/js/3.531b081e.chunk.js",
     "static/js/3.531b081e.chunk.js.map": "/perniayenni.github.io/static/js/3.531b081e.chunk.js.map",
     "index.html": "/perniayenni.github.io/index.html",
     "static/css/main.9d5b29c0.chunk.css.map": "/perniayenni.github.io/static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.09a915c5.chunk.js.LICENSE.txt": "/perniayenni.github.io/static/js/2.09a915c5.chunk.js.LICENSE.txt",
+    "static/js/2.c2c62aec.chunk.js.LICENSE.txt": "/perniayenni.github.io/static/js/2.c2c62aec.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/perniayenni.github.io/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.adf37629.js",
-    "static/js/2.09a915c5.chunk.js",
+    "static/js/2.c2c62aec.chunk.js",
     "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.ccf845e3.chunk.js"
+    "static/js/main.8679e639.chunk.js"
   ]
 }
