@@ -1,1 +1,0 @@
-Yennifer Pernía
