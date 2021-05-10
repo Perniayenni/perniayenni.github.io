@@ -1,0 +1,16 @@
+.experience__content {
+  display: flex;
+  background-color: white;
+  height: 100vh;
+}
+
+.experience__background-font {
+  font-size: 190px;
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  p {
+    color: #f9f9f9;
+  }
+}
