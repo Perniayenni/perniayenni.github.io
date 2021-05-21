@@ -1,23 +1,21 @@
 {
   "files": {
-    "main.css": "/perniayenni.github.io/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/perniayenni.github.io/static/js/main.8679e639.chunk.js",
-    "main.js.map": "/perniayenni.github.io/static/js/main.8679e639.chunk.js.map",
-    "runtime-main.js": "/perniayenni.github.io/static/js/runtime-main.adf37629.js",
-    "runtime-main.js.map": "/perniayenni.github.io/static/js/runtime-main.adf37629.js.map",
-    "static/js/2.c2c62aec.chunk.js": "/perniayenni.github.io/static/js/2.c2c62aec.chunk.js",
-    "static/js/2.c2c62aec.chunk.js.map": "/perniayenni.github.io/static/js/2.c2c62aec.chunk.js.map",
-    "static/js/3.531b081e.chunk.js": "/perniayenni.github.io/static/js/3.531b081e.chunk.js",
-    "static/js/3.531b081e.chunk.js.map": "/perniayenni.github.io/static/js/3.531b081e.chunk.js.map",
+    "main.css": "/perniayenni.github.io/static/css/main.3b30b8d3.chunk.css",
+    "main.js": "/perniayenni.github.io/static/js/main.554d3750.chunk.js",
+    "main.js.map": "/perniayenni.github.io/static/js/main.554d3750.chunk.js.map",
+    "runtime-main.js": "/perniayenni.github.io/static/js/runtime-main.a16af90f.js",
+    "runtime-main.js.map": "/perniayenni.github.io/static/js/runtime-main.a16af90f.js.map",
+    "static/js/2.a9dcede3.chunk.js": "/perniayenni.github.io/static/js/2.a9dcede3.chunk.js",
+    "static/js/2.a9dcede3.chunk.js.map": "/perniayenni.github.io/static/js/2.a9dcede3.chunk.js.map",
     "index.html": "/perniayenni.github.io/index.html",
-    "static/css/main.9d5b29c0.chunk.css.map": "/perniayenni.github.io/static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.c2c62aec.chunk.js.LICENSE.txt": "/perniayenni.github.io/static/js/2.c2c62aec.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/perniayenni.github.io/static/media/logo.6ce24c58.svg"
+    "static/css/main.3b30b8d3.chunk.css.map": "/perniayenni.github.io/static/css/main.3b30b8d3.chunk.css.map",
+    "static/js/2.a9dcede3.chunk.js.LICENSE.txt": "/perniayenni.github.io/static/js/2.a9dcede3.chunk.js.LICENSE.txt",
+    "static/media/content_img.4fe6df45.png": "/perniayenni.github.io/static/media/content_img.4fe6df45.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.adf37629.js",
-    "static/js/2.c2c62aec.chunk.js",
-    "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.8679e639.chunk.js"
+    "static/js/runtime-main.a16af90f.js",
+    "static/js/2.a9dcede3.chunk.js",
+    "static/css/main.3b30b8d3.chunk.css",
+    "static/js/main.554d3750.chunk.js"
   ]
 }
