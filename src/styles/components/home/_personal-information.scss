@@ -10,26 +10,50 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  //background-color: sandybrown;
 }
 
-.personal-information__img {
-  min-width: 50px;
-  max-width: 700px;
+.personal-information__content-img {
+  //background-color: seagreen;
+  .personal-information__img {
+    min-width: 50px;
+    max-width: 700px;
+  }
+
+  .personal-information__img_two {
+    min-width: 50px;
+    max-width: 700px;
+  }
 }
 
-.personal-information__img_two {
-  min-width: 50px;
-  max-width: 700px;
-}
+.personal-information__content-text {
+  //background-color: skyblue;
+  padding-top: 80px;
+  .personal-information__is {
+    //background-color: salmon;
+    position: relative;
+    left: -20px;
 
-.personal-information__is {
-  position: relative;
-  left: -20px;
+    p {
+      font-family: "Roboto Condensed", sans-serif;
+      color: #556767;
+      font-size: 50px;
+      font-weight: bold;
+    }
+  }
 
-  p {
-    font-family: "Roboto Condensed", sans-serif;
-    color: #556767;
-    font-size: 50px;
-    font-weight: bold;
+  .personal-information__business {
+    position: relative;
+    left: -90px;
+    p {
+      font-family: "Roboto Condensed", sans-serif;
+      color: #556767;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .personal-information__icono-location {
+      font-size: 50px;
+      color: #f4ec14;
+    }
   }
 }

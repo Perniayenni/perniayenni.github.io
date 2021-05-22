@@ -12,9 +12,9 @@ export const AppRouter = () => {
     <Router>
       <div>
         <Switch>
-          <Route exact path="/home" component={HomeScreen} />
+          <Route exact path="/" component={HomeScreen} />
           <Route exact path="/blog" />
-          <Redirect to="/home" />
+          <Redirect to="/" />
         </Switch>
       </div>
     </Router>
