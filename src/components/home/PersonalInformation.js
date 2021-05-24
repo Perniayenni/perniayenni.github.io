@@ -1,24 +1,28 @@
 import React from "react";
 import content_img from "../../assets/imgs/content_img.png";
+import foto_carnet from "../../assets/imgs/foto_carnet.jpeg";
+import puntos from "../../assets/imgs/puntos.png";
 
 export const PersonalInformation = () => {
   return (
     <>
       <div className="personal-information__content">
-        <div className="personal-information__hexagon">
-          <div className="personal-information__content-img">
-            <img
-              className="personal-information__img"
-              src={content_img}
-              alt="content_img"
-            />
-            {/*    <img
+        <div className="personal-information__content-hexagon">
+          <img
+            className="personal-information__img"
+            src={content_img}
+            alt="content_img"
+          />
+          <img
             className="personal-information__img_two"
-            src={fotocarnet}
+            src={foto_carnet}
             alt="foto_carnet"
-          /> */}
-          </div>
-
+          />
+          <img
+            className="personal-information__img_three"
+            src={puntos}
+            alt="foto_carnet"
+          />
           <div className="personal-information__content-text">
             <div className="personal-information__is">
               <p>FRONTEND</p>

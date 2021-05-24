@@ -6,54 +6,66 @@
   height: 100vh;
 }
 
-.personal-information__hexagon {
+.personal-information__content-hexagon {
   display: flex;
   justify-content: center;
   align-items: center;
-  //background-color: sandybrown;
-}
+  position: relative;
+  max-width: 700px;
 
-.personal-information__content-img {
-  //background-color: seagreen;
   .personal-information__img {
-    min-width: 50px;
-    max-width: 700px;
+    max-width: 750px;
   }
 
   .personal-information__img_two {
-    min-width: 50px;
-    max-width: 700px;
-  }
-}
-
-.personal-information__content-text {
-  //background-color: skyblue;
-  padding-top: 80px;
-  .personal-information__is {
-    //background-color: salmon;
-    position: relative;
-    left: -20px;
-
-    p {
-      font-family: "Roboto Condensed", sans-serif;
-      color: #556767;
-      font-size: 50px;
-      font-weight: bold;
-    }
+    position: absolute;
+    width: 280px;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    margin-top: 60px;
+    margin-left: 170px;
+    border-top-left-radius: 45px;
+    border-top-right-radius: 95px;
+    border-bottom-right-radius: 90px;
+    border-bottom-left-radius: 60px;
   }
 
-  .personal-information__business {
-    position: relative;
-    left: -90px;
-    p {
-      font-family: "Roboto Condensed", sans-serif;
-      color: #556767;
-      font-size: 20px;
-      font-weight: bold;
+  .personal-information__img_three {
+    position: absolute;
+    z-index: 2;
+    width: 300px;
+    bottom: 110px;
+    left: 136px;
+  }
+
+  .personal-information__content-text {
+    padding-top: 80px;
+    .personal-information__is {
+      position: relative;
+      left: -20px;
+
+      p {
+        font-family: "Roboto Condensed", sans-serif;
+        color: $font-primary;
+        font-size: 50px;
+        font-weight: bold;
+      }
     }
-    .personal-information__icono-location {
-      font-size: 50px;
-      color: #f4ec14;
+
+    .personal-information__business {
+      position: relative;
+      left: -90px;
+      p {
+        font-family: "Roboto Condensed", sans-serif;
+        color: $font-primary;
+        font-size: 20px;
+        font-weight: bold;
+      }
+      .personal-information__icono-location {
+        font-size: 50px;
+        color: #ffd437;
+      }
     }
   }
 }

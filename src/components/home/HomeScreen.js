@@ -1,19 +1,20 @@
 import React from "react";
 import { Description } from "./Description";
+import { Education } from "./Education";
 import { Experience } from "./Experience";
 import { PersonalInformation } from "./PersonalInformation";
 
 export const HomeScreen = () => {
   return (
     <div className="home__content">
-      <div className="home__box" id="section1">
+      <div id="section1">
         <PersonalInformation />
       </div>
-      <div className="home__box" id="section2">
+      <div id="section2">
         <Description />
       </div>
-      <div className="home__box" id="section3">
-        <Experience />
+      <div id="section3">
+        <Education />
       </div>
     </div>
   );
