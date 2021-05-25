@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/perniayenni.github.io/static/css/main.1a18c52d.chunk.css",
-    "main.js": "/perniayenni.github.io/static/js/main.f64ef33c.chunk.js",
-    "main.js.map": "/perniayenni.github.io/static/js/main.f64ef33c.chunk.js.map",
+    "main.css": "/perniayenni.github.io/static/css/main.d109ab17.chunk.css",
+    "main.js": "/perniayenni.github.io/static/js/main.111e4bbc.chunk.js",
+    "main.js.map": "/perniayenni.github.io/static/js/main.111e4bbc.chunk.js.map",
     "runtime-main.js": "/perniayenni.github.io/static/js/runtime-main.a16af90f.js",
     "runtime-main.js.map": "/perniayenni.github.io/static/js/runtime-main.a16af90f.js.map",
     "static/js/2.588e2e9e.chunk.js": "/perniayenni.github.io/static/js/2.588e2e9e.chunk.js",
     "static/js/2.588e2e9e.chunk.js.map": "/perniayenni.github.io/static/js/2.588e2e9e.chunk.js.map",
     "index.html": "/perniayenni.github.io/index.html",
-    "static/css/main.1a18c52d.chunk.css.map": "/perniayenni.github.io/static/css/main.1a18c52d.chunk.css.map",
+    "static/css/main.d109ab17.chunk.css.map": "/perniayenni.github.io/static/css/main.d109ab17.chunk.css.map",
     "static/js/2.588e2e9e.chunk.js.LICENSE.txt": "/perniayenni.github.io/static/js/2.588e2e9e.chunk.js.LICENSE.txt",
     "static/media/content_img.4fe6df45.png": "/perniayenni.github.io/static/media/content_img.4fe6df45.png",
-    "static/media/foto_carnet.2c5402cf.jpeg": "/perniayenni.github.io/static/media/foto_carnet.2c5402cf.jpeg",
-    "static/media/puntos.2cc3da24.png": "/perniayenni.github.io/static/media/puntos.2cc3da24.png"
+    "static/media/foto_carnet.2c5402cf.jpeg": "/perniayenni.github.io/static/media/foto_carnet.2c5402cf.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.a16af90f.js",
     "static/js/2.588e2e9e.chunk.js",
-    "static/css/main.1a18c52d.chunk.css",
-    "static/js/main.f64ef33c.chunk.js"
+    "static/css/main.d109ab17.chunk.css",
+    "static/js/main.111e4bbc.chunk.js"
   ]
 }
