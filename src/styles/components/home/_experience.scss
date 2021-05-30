@@ -1,16 +1,114 @@
 .experience__content {
-  display: flex;
-  background-color: white;
+  position: relative;
   height: 100vh;
+  overflow: hidden;
+  p {
+    font-family: $font-family-primary;
+    font-weight: bold;
+  }
 }
 
-.experience__background-font {
-  font-size: 190px;
-  margin-left: 40px;
+.experience__img_esquina {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: salmon;
+}
+
+.experience__title {
+  color: $secundary;
+  font-size: 70px;
+  margin-bottom: 40px;
+  margin-left: 9%;
+}
+
+.experience__content_data {
   display: flex;
-  flex-direction: column;
   justify-content: flex-end;
-  p {
-    color: #f9f9f9;
+  width: 100%;
+  .experience__content_list_experience {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+  }
+  .experience__content_experience_selected {
+    width: 50%;
+  }
+}
+
+.experience-card__content {
+  border: 1px;
+  border-radius: 5px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-bottom: 15px;
+  position: relative;
+  width: 60%;
+  cursor: pointer;
+
+  .icono {
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+    font-size: 25px;
+    color: $primary;
+  }
+
+  .experience-card__company_name {
+    margin-top: 3px;
+    color: $secundary;
+    font-style: oblique;
+  }
+}
+
+.experience-card__content:hover {
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+}
+
+.experience-card__content_date {
+  display: flex;
+  .experience-card__date_start {
+    align-self: flex-end;
+    font-size: 25px;
+  }
+  .experience-card__date_end {
+    align-self: flex-end;
+    font-size: 18px;
+  }
+}
+.experience-card__position {
+  margin-top: 3px;
+  font-size: 19px;
+}
+
+.experience-card-selected__content {
+  background-color: $secundary;
+  border-radius: 5px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  position: relative;
+  width: 70%;
+  .icono {
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+    font-size: 25px;
+    color: white;
+  }
+  .experience-card-selected__company_name {
+    margin-top: 3px;
+    font-style: oblique;
+    border-bottom: 3px solid white;
+    margin-bottom: 5px;
+  }
+  .experience-card-selected__subtitle {
+    font-style: oblique;
+    font-size: 15px;
+  }
+  .experience-card-selected__description {
+    color: white;
+    line-height: 25px;
   }
 }

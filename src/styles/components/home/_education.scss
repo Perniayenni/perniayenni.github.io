@@ -2,23 +2,14 @@
   background-color: $secundary;
   height: 100vh;
   background-attachment: fixed;
-
-  //background-repeat: no-repeat;
-  //background-size: cover;
+  p {
+    color: white;
+    font-weight: bold;
+    font-family: $font-family-primary;
+  }
 }
 
-/* .education__content_img {
-  background: url("../../../assets/imgs/banner_t.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: flex-end;
-  width: 100%;
-  height: 300px;
-} */
-
 .education__content_img {
-  background-color: salmon;
   background: url("../../../assets/imgs/banner_t.png");
   background-size: contain;
   background-repeat: no-repeat;
@@ -26,4 +17,74 @@
   right: 0;
   width: 30%;
   height: 300px;
+}
+
+.education__content_data {
+  display: flex;
+  height: 100%;
+  .education__content_data_university {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    width: 33%;
+    height: 90%;
+    border-right: 2px solid white;
+    .education__university {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-self: center;
+
+      .education__instituto {
+        font-size: 21px;
+      }
+      .education__name_university {
+        font-size: 30px;
+      }
+    }
+  }
+
+  .education__content_data_destacado {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    width: 36%;
+    height: 90%;
+    border-right: 2px solid white;
+    .education__destacado {
+      p {
+        text-align: center;
+        font-size: 70px;
+      }
+    }
+  }
+  .education__content_language {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    justify-content: center;
+    height: 90%;
+    width: 30%;
+    .education__language {
+      display: flex;
+      justify-content: center;
+      align-self: center;
+      .education__content_icon {
+        .icono {
+          color: orange;
+          font-size: 40px;
+          margin-right: 15px;
+        }
+      }
+      .education__content_text {
+        .education__text_title {
+          font-size: 21px;
+        }
+        .education__text_anguage {
+          font-size: 25px;
+        }
+      }
+    }
+  }
 }

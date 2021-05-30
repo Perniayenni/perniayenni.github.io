@@ -1,0 +1,12 @@
+.technologies__content {
+  position: relative;
+  background-attachment: fixed;
+  p {
+    font-weight: bold;
+    font-family: $font-family-primary;
+  }
+  .technologies__title {
+    color: $secundary;
+    font-size: 100px;
+  }
+}

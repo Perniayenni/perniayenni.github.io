@@ -1,0 +1,34 @@
+.projects__content {
+  position: relative;
+  background-color: $primary;
+  height: 100vh;
+  background-attachment: fixed;
+  p {
+    font-weight: bold;
+    font-family: $font-family-primary;
+  }
+}
+
+.projects__img_esquina {
+  position: absolute;
+  bottom: 0;
+  background-color: salmon;
+}
+
+.projects__content_data {
+  display: flex;
+  width: 100%;
+  .projects__title {
+    width: 50%;
+    margin-left: 20px;
+    margin-top: 30px;
+
+    p {
+      color: $secundary;
+      font-size: 170px;
+    }
+  }
+  .projects__projects {
+    width: 50%;
+  }
+}

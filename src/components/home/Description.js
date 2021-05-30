@@ -1,6 +1,6 @@
 import React from "react";
 import cubito from "../../assets/imgs/cubito.png";
-import puntos from "../../assets/imgs/puntos.png";
+import puntos from "../../assets/imgs/puntitospeques.png";
 
 export const Description = () => {
   return (
@@ -23,10 +23,10 @@ export const Description = () => {
           <div className="description__username">@YenniPernia</div>
         </div>
         <div className="description__social_media">
-          <i class="fab fa-linkedin"></i>
-          <i class="fab fa-twitter-square"></i>
-          <i class="fab fa-instagram-square"></i>
-          <i class="fab fa-github-square"></i>
+          <i className="fab fa-linkedin"></i>
+          <i className="fab fa-twitter-square"></i>
+          <i className="fab fa-instagram-square"></i>
+          <i className="fab fa-github-square"></i>
         </div>
       </div>
       <img className="description__punticos" src={puntos} alt="punticos" />

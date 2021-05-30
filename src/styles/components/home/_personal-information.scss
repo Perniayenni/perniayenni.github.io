@@ -46,8 +46,8 @@
       left: -20px;
 
       p {
-        font-family: "Roboto Condensed", sans-serif;
-        color: $font-primary;
+        font-family: $font-family-primary;
+        color: $font-color-primary;
         font-size: 50px;
         font-weight: bold;
       }
@@ -57,14 +57,14 @@
       position: relative;
       left: -90px;
       p {
-        font-family: "Roboto Condensed", sans-serif;
-        color: $font-primary;
+        font-family: $font-family-primary;
+        color: $font-color-primary;
         font-size: 20px;
         font-weight: bold;
       }
       .personal-information__icono-location {
         font-size: 50px;
-        color: #ffd437;
+        color: $primary;
       }
     }
   }

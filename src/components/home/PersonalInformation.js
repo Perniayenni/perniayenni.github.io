@@ -30,7 +30,7 @@ export const PersonalInformation = () => {
             </div>
             <div className="personal-information__business">
               <p>INGENIERÍA EN SISTEMAS O.G.R. S.A</p>
-              <i class="fas fa-map-marker-alt personal-information__icono-location"></i>
+              <i className="fas fa-map-marker-alt personal-information__icono-location"></i>
               <p>Chile</p>
             </div>
           </div>
