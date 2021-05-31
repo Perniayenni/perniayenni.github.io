@@ -1,6 +1,5 @@
 .education__content {
   background-color: $secundary;
-  height: 100vh;
   background-attachment: fixed;
   p {
     color: white;
@@ -21,7 +20,7 @@
 
 .education__content_data {
   display: flex;
-  height: 100%;
+  height: 400px;
   .education__content_data_university {
     display: flex;
     flex-direction: column;

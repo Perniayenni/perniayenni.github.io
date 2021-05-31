@@ -1,10 +1,11 @@
 import React from "react";
-import { Description } from "./Description";
-import { Education } from "./Education";
-import { Experience } from "./Experience";
-import { PersonalInformation } from "./PersonalInformation";
-import { Projects } from "./Projects";
-import { Technologies } from "./Technologies";
+import { Footer } from "../components/Footer";
+import { Description } from "../components/home/Description";
+import { Education } from "../components/home/Education";
+import { Experience } from "../components/home/Experience";
+import { PersonalInformation } from "../components/home/PersonalInformation";
+import { Projects } from "../components/home/Projects";
+import { Technologies } from "../components/home/Technologies";
 
 export const HomeScreen = () => {
   return (
@@ -26,6 +27,9 @@ export const HomeScreen = () => {
       </div>
       <div id="section6">
         <Technologies />
+      </div>
+      <div id="section7">
+        <Footer />
       </div>
     </div>
   );

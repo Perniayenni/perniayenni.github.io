@@ -8,9 +8,9 @@ export const ExperienceCard = ({ selectedExperience, experience }) => {
   return (
     <div className="experience-card__content" onClick={handleClick}>
       {experience.selected ? (
-        <i class="fas fa-arrow-circle-right icono"></i>
+        <i className="fas fa-arrow-circle-right icono"></i>
       ) : (
-        <i class="fas fa-arrow-circle-down icono"></i>
+        <i className="fas fa-arrow-circle-down icono"></i>
       )}
 
       <div className="experience-card__content_date">

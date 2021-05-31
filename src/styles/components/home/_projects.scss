@@ -1,8 +1,9 @@
 .projects__content {
   position: relative;
   background-color: $primary;
-  height: 100vh;
   background-attachment: fixed;
+  padding-left: 50px;
+  padding-bottom: 50px;
   p {
     font-weight: bold;
     font-family: $font-family-primary;
@@ -12,7 +13,7 @@
 .projects__img_esquina {
   position: absolute;
   bottom: 0;
-  background-color: salmon;
+  margin-left: -50px;
 }
 
 .projects__content_data {

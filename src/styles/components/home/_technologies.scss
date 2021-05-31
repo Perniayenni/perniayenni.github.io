@@ -1,4 +1,6 @@
 .technologies__content {
+  padding-left: 50px;
+  padding-bottom: 40px;
   position: relative;
   background-attachment: fixed;
   p {
@@ -8,5 +10,35 @@
   .technologies__title {
     color: $secundary;
     font-size: 100px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}
+
+.technologies__img_esquina {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.technologies__content_data {
+  display: flex;
+
+  .technologies__content_icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-right: 20px;
+    p {
+      color: #c0c0c0;
+      text-align: center;
+      margin-top: 10px;
+    }
+    .icono {
+      color: #c0c0c0;
+      font-size: 90px;
+    }
   }
 }

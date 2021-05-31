@@ -4,7 +4,7 @@ import { experiences } from "../../data/experiences";
 export const ExperienceCardSelected = ({ experience }) => {
   return (
     <div className="experience-card-selected__content">
-      <i class="fas fa-arrow-circle-down icono"></i>
+      <i className="fas fa-arrow-circle-down icono"></i>
       <div className="experience-card__content_date">
         <p className="experience-card__date_start">{experience.start_date}/</p>
         <p className="experience-card__date_end">{experience.end_date}</p>

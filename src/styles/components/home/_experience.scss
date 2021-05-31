@@ -1,7 +1,6 @@
 .experience__content {
   position: relative;
-  height: 100vh;
-  overflow: hidden;
+  padding-bottom: 50px;
   p {
     font-family: $font-family-primary;
     font-weight: bold;
@@ -12,7 +11,6 @@
   position: absolute;
   bottom: 0;
   right: 0;
-  background-color: salmon;
 }
 
 .experience__title {
@@ -26,6 +24,7 @@
   display: flex;
   justify-content: flex-end;
   width: 100%;
+
   .experience__content_list_experience {
     width: 50%;
     display: flex;

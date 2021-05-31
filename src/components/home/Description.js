@@ -23,10 +23,19 @@ export const Description = () => {
           <div className="description__username">@YenniPernia</div>
         </div>
         <div className="description__social_media">
-          <i className="fab fa-linkedin"></i>
-          <i className="fab fa-twitter-square"></i>
-          <i className="fab fa-instagram-square"></i>
-          <i className="fab fa-github-square"></i>
+          <a href="https://www.linkedin.com/in/yennipernia/">
+            <i className="fab fa-linkedin"></i>
+          </a>
+          <a href="https://twitter.com/YenniPernia">
+            <i className="fab fa-twitter-square"></i>
+          </a>
+          <a href="https://www.instagram.com/yennipernia/">
+            <i className="fab fa-instagram-square"></i>
+          </a>
+
+          <a href="https://github.com/Perniayenni">
+            <i className="fab fa-github-square"></i>
+          </a>
         </div>
       </div>
       <img className="description__punticos" src={puntos} alt="punticos" />
