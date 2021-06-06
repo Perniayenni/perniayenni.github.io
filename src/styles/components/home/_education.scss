@@ -1,6 +1,5 @@
 .education__content {
   background-color: $secundary;
-  background-attachment: fixed;
   p {
     color: white;
     font-weight: bold;
@@ -82,6 +81,47 @@
         }
         .education__text_anguage {
           font-size: 25px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1001px) {
+  .education__content_data {
+    flex-direction: column;
+    .education__content_data_university {
+      align-self: center;
+      width: 90%;
+      height: 90%;
+      border-right: none;
+      border-bottom: 2px solid white;
+    }
+    .education__content_data_destacado {
+      display: flex;
+      flex-direction: column;
+      align-self: center;
+      width: 90%;
+      height: 90%;
+      border-right: none;
+      border-bottom: 2px solid white;
+    }
+    .education__content_language {
+      height: 90%;
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 585px) {
+  .education__content_img {
+    display: none;
+  }
+  .education__content_data {
+    .education__content_data_destacado {
+      .education__destacado {
+        p {
+          font-size: 50px;
         }
       }
     }

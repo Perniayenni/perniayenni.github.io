@@ -1,16 +1,25 @@
 import React from "react";
 import content_img from "../../assets/imgs/content_img.png";
+import hexagono from "../../assets/imgs/hexagono.png";
 import foto_carnet from "../../assets/imgs/foto_carnet.jpeg";
 import puntos from "../../assets/imgs/puntos.png";
 
 export const PersonalInformation = () => {
   return (
-    <>
-      <div className="personal-information__content">
-        <div className="personal-information__content-hexagon">
+    <div className="personal-information__content">
+      <div className="personal-information__content-hexagon">
+        <div className="personal-information__content-name">
+          <div className="personal-information__last-name">
+            <p>PERNÍA</p>
+          </div>
+          <div className="personal-information__first-name">
+            <p>Yennifer</p>
+          </div>
+        </div>
+        <div className="personal-information__content-img">
           <img
             className="personal-information__img"
-            src={content_img}
+            src={hexagono}
             alt="content_img"
           />
           <img
@@ -23,19 +32,22 @@ export const PersonalInformation = () => {
             src={puntos}
             alt="foto_carnet"
           />
-          <div className="personal-information__content-text">
-            <div className="personal-information__is">
-              <p>FRONTEND</p>
-              <p>ENGINEER</p>
-            </div>
-            <div className="personal-information__business">
-              <p>INGENIERÍA EN SISTEMAS O.G.R. S.A</p>
-              <i className="fas fa-map-marker-alt personal-information__icono-location"></i>
+        </div>
+
+        <div className="personal-information__content-text">
+          <div className="personal-information__is">
+            <p>FRONTEND</p>
+            <p>ENGINEER</p>
+          </div>
+          <div className="personal-information__business">
+            <p>INGENIERÍA EN SISTEMAS O.G.R. S.A</p>
+            <div className="personal-information__icono-location">
+              <i className="fas fa-map-marker-alt "></i>
               <p>Chile</p>
             </div>
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };

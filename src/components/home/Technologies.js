@@ -14,27 +14,30 @@ export const Technologies = () => {
       />
       <p className="technologies__title">TECNOLOGÍAS</p>
       <div className="technologies__content_data">
-        {tecnologies.map((tecnologie) =>
-          tecnologie.isIcono ? (
-            <div className="technologies__content_icons">
-              <i className={`fab ${tecnologie.iconoNombre} icono`}></i>
-              <p>{tecnologie.nombre}</p>
-            </div>
-          ) : (
-            <div className="technologies__content_icons">
-              <img
-                src={
-                  tecnologie.imgName == "rails"
-                    ? rails
-                    : tecnologie.imgName == "sql"
-                    ? sql
-                    : ""
-                }
-              />
-              <p>{tecnologie.nombre}</p>
-            </div>
-          )
-        )}
+        {tecnologies.map((tecnologie, index) => (
+          <div key={index}>
+            {tecnologie.isIcono ? (
+              <div className="technologies__content_icons">
+                <i className={`fab ${tecnologie.iconoNombre} icono`}></i>
+                <p>{tecnologie.nombre}</p>
+              </div>
+            ) : (
+              <div className="technologies__content_icons">
+                <img
+                  className="technologies__content_img"
+                  src={
+                    tecnologie.imgName == "rails"
+                      ? rails
+                      : tecnologie.imgName == "sql"
+                      ? sql
+                      : ""
+                  }
+                />
+                <p>{tecnologie.nombre}</p>
+              </div>
+            )}
+          </div>
+        ))}
       </div>
     </div>
   );

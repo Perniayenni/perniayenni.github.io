@@ -33,3 +33,19 @@
     width: 50%;
   }
 }
+
+@media (max-width: 1001px) {
+  .projects__content_data {
+    .projects__title {
+      p {
+        font-size: 70px;
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .projects__img_esquina {
+    width: 90%;
+  }
+}
