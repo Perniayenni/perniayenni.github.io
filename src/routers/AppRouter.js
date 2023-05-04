@@ -1,22 +1,18 @@
-import React from "react";
 import {
-  BrowserRouter as Router,
-  Switch,
+  BrowserRouter,
   Route,
-  Redirect,
+  Routes,
 } from "react-router-dom";
 import { HomeScreen } from "../pages/HomeScreen";
 
 export const AppRouter = () => {
   return (
-    <Router>
-      <div>
-        <Switch>
-          <Route exact path="/" component={HomeScreen} />
-          <Route exact path="/blog" />
-          <Redirect to="/" />
-        </Switch>
-      </div>
-    </Router>
+    <BrowserRouter>
+      <Routes>
+        <Route exact path="/" element={<HomeScreen/>} />
+        <Route exact path="/blog" />
+        <Route path="*" element={<HomeScreen to="/" replace />}/>
+      </Routes>
+   </BrowserRouter>
   );
 };
