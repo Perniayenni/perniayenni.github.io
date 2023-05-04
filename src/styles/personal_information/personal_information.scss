@@ -1,0 +1,98 @@
+.personal-information {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 1001px) {
+  .personal-information__content {
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .personal-information__content-hexagon {
+    flex-direction: column;
+    .personal-information__content-img {
+      .personal-information__img {
+        max-width: 450px;
+      }
+      .personal-information__photo-carnet {
+        max-width: 210px;
+        margin-top: 50px;
+        margin-left: 110px;
+      }
+      .personal-information__img-points {
+        bottom: 60px;
+        left: 80px;
+      }
+    }
+
+    .personal-information__content-text {
+      top: 0;
+      margin-top: -130px;
+      margin-left: 30px;
+      .personal-information__profession {
+        left: 0;
+      }
+
+      .personal-information__icon-location {
+        position: relative;
+        right: 0;
+        top: 0;
+        margin-right: 10px;
+        margin-top: -120px;
+      }
+    }
+  }
+}
+
+
+@media (max-width: 462px) {
+  .personal-information__content-hexagon {
+    .personal-information__content-name {
+      margin: 0;
+      margin-bottom: 10px;
+      margin-top: 10px;
+    }
+
+    .personal-information__content-img {
+      .personal-information__img {
+        max-width: 250px;
+      }
+
+      .personal-information__photo-carnet {
+        border-top-right-radius: 60px;
+        max-width: 116px;
+        margin-top: 29px;
+        margin-left: 60px;
+      }
+
+      .personal-information__img-points {
+        bottom: 0px;
+        left: 0;
+        width: 240px;
+      }
+    }
+
+    .personal-information__content-text {
+      top: 0;
+      margin-top: -120px;
+      margin-left: 30px;
+
+      .personal-information__profession {
+        p {
+          font-size: 30px;
+        }
+      }
+        
+      .personal-information__icon-location {
+        font-size: 40px;
+        margin-top: -70px;
+        margin-left: 45px;
+        top: 0;
+        p {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+}

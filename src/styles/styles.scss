@@ -1,7 +1,9 @@
 @import "./base/base";
 @import "./base/settings";
-@import "./components/home/home";
-@import "./components/home/personal-information";
+@import './home/index.scss';
+@import './personal_information/index.scss';
+
+
 @import "./components/home/description";
 @import "./components/home/experience";
 @import "./components/home/education";

@@ -1,0 +1,12 @@
+.personal-information__first-name {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  p {
+    color: $secundary;
+    font-size: 30px;
+    font-family: "Homemade Apple", cursive;
+  }
+  margin-bottom: -15px;
+  margin-right: -40px;
+}
