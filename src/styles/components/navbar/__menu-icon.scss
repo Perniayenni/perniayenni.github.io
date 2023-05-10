@@ -1,0 +1,11 @@
+.navbar__menu-icon {
+  margin: 0 50px 0 30px;
+  display: flex;
+ 
+
+  i {
+    color: $primary;
+    font-size: 60px;
+    cursor: pointer;
+  }
+}

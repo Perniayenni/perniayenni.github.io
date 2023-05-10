@@ -1,0 +1,10 @@
+.social-media {
+  display: flex;
+  justify-content: space-around;
+  font-size: 30px;
+  
+  i {
+    color: $font-color-primary;
+  }
+  
+}

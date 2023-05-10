@@ -1,8 +1,7 @@
 import React from "react";
-import content_img from "../../assets/imgs/content_img.png";
-import hexagon from "../../assets/imgs/hexagono.png";
-import photo_carnet from "../../assets/imgs/foto_carnet.jpeg";
-import points from "../../assets/imgs/puntos.png";
+import hexagon from "../../assets/img/hexagon.png";
+import photo_carnet from "../../assets/img/photo_carnet.png";
+import points from "../../assets/img/points.png";
 
 export const PersonalInformation = () => {
   return (

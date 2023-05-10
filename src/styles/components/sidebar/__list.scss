@@ -1,0 +1,13 @@
+.sidebar__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 25px;
+  
+  color: white;
+  font-family: $font-family-primary;
+
+  label {
+    margin-top: 20px;
+  }
+}

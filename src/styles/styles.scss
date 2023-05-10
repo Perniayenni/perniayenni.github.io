@@ -1,12 +1,12 @@
 @import "./base/base";
 @import "./base/settings";
-@import './home/index.scss';
-@import './personal_information/index.scss';
+
+@import './components/personal-information/index.scss';
+@import './components/navbar/index.scss';
+@import './components/social-media/index.scss';
 
 
-@import "./components/home/description";
-@import "./components/home/experience";
-@import "./components/home/education";
-@import "./components/home/projects";
-@import "./components/home/technologies";
-@import "./footer";
+
+//my-library
+@import './components/sidebar/index.scss';
+
