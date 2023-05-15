@@ -6,10 +6,10 @@ export const Layout = (props) => {
   const { children, isTestEnv } = props
 
   return (
-    <div>
+    <div className='layout'>
       <Navbar />
       
-      <div className='layout_content'>
+      <div className='layout__content'>
         { isTestEnv ? children : <Outlet/> } 
       </div>
     </div>

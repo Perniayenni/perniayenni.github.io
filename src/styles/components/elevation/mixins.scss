@@ -1,0 +1,5 @@
+@mixin elevation($z: 1, $theme: 'light') {
+  $color: map-get($elevation-colors, $theme);
+
+  box-shadow: nth($elevation-types, $z) $color;
+}

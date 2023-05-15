@@ -1,0 +1,17 @@
+$elevation-z1: 0 1px 2px;
+
+$elevation-z2: 0 4px 8px;
+
+$elevation-z3: 0 6px 12px;
+
+$elevation-z4: 0 8px 16px;
+
+$elevation-z5: 0 12px 24px;
+
+$elevation-types: $elevation-z1 $elevation-z2 $elevation-z3 $elevation-z4 $elevation-z5;
+
+$elevation-colors: (
+  light: rgba(#000, 0.15),
+  dark: rgba(#000, 0.5)
+);
+

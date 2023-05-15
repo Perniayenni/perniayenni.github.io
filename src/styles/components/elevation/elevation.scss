@@ -1,0 +1,13 @@
+@for $i from 1 through 5 {
+  .elevation--z#{$i} {
+    @include elevation($i);
+  }
+}
+
+.elevation--dark {
+  @for $i from 1 through 5 {
+    &.elevation--z#{$i} {
+      @include elevation($i, 'dark');
+    }
+  }
+}
