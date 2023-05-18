@@ -1,0 +1,5 @@
+{
+  "expedition": "Expedition",
+  "company": "Issuing company",
+  "credentials": "$t(general:actions.view) credentials"
+}

@@ -1,13 +1,17 @@
+// Base
 @import "./base/base";
 @import "./base/settings";
+
+// My-library
+@import './components/sidebar/index.scss';
+@import './components/elevation/index.scss';
+@import './components/paper/index.scss';
 
 @import './components/layout/index.scss';
 @import './components/personal-information/index.scss';
 @import './components/navbar/index.scss';
 @import './components/social-media/index.scss';
+@import './components/certifications/index.scss';
 
-//my-library
-@import './components/sidebar/index.scss';
-@import './components/elevation/index.scss';
-@import './components/paper/index.scss';
+
 

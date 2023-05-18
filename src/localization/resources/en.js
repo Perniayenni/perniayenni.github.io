@@ -1,9 +1,13 @@
-import personaInformation from "./en/personaInformation.json"
-import sidebarList from "./en/sidebarList.json"
+import personaInformation from './en/personaInformation.json'
+import sidebarList from './en/sidebarList.json'
+import general from './en/general.json'
+import certifications from './en/certifications.json'
 
 const resource = {
   personaInformation,
-  sidebarList
+  sidebarList,
+  general,
+  certifications
 }
 
 export default resource
