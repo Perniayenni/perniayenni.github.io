@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import PropTypes from 'prop-types'
+import { getBEMClasses } from '../shared/utils';
 
 const LazyImage = (props) => {
-  const { url, alt, width, loader } = props
+  const { url, alt, width, loader, additionalClassName } = props
   const [imageSrc, setImageSrc] = useState(null);
 
   useEffect(() => {
@@ -16,23 +17,23 @@ const LazyImage = (props) => {
 
   if (!imageSrc) {
     return (
-      <div className='lazy-image'>
+      <div className={getBEMClasses('lazy-image', {}, additionalClassName)}>
        {loader}
       </div>
     )
   }else {
-    return  <img alt={alt} src={url} width={width} />
+    return <img className={getBEMClasses('', {}, additionalClassName)} alt={alt} src={url} width={width} />
   }
   
 }
 
 LazyImage.defaultProps = {
   url : null,
-  width: 250,
   loader: '...'
 }
 
 LazyImage.propTypes = {
+  additionalClassName: PropTypes.string,
   url: PropTypes.string,
   loader: PropTypes.node
 }
