@@ -20,10 +20,12 @@ export const Navbar = () => {
     { open &&
       <SideBar
         footer={<SocialMedia fontColor='white' fontSize='40px'/>}
-        onClose={()=> setOpen(!open)} >
+        onClose={()=> setOpen(!open)}
+        onClickOutside={()=> setOpen(!open)} >
         <div className='sidebar__list'>
           <label onClick={() => navigate('/')}>{t('sidebarList:home')}</label>
           <label onClick={() => navigate('/about-me')}>{t('sidebarList:about-me')}</label>
+          <label onClick={() => navigate('/certifications')}>{t('sidebarList:certifications')}</label>
         </div>
       </SideBar>
     }

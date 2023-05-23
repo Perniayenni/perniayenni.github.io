@@ -13,8 +13,8 @@ export const Certifications = () => {
       <Paper >  
         <div className='certifications'>
           {
-            certifications.map(certification => (
-              <Paper elevation={2} additionalClassName='certifications__certification'>
+            certifications.map((certification, index) => (
+              <Paper key={index} elevation={2} additionalClassName='certifications__certification'>
                 <LazyImage
                   width={SIZE_IMG}
                   alt='angular'
