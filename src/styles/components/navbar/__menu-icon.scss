@@ -1,11 +1,11 @@
 .navbar__menu-icon {
   margin: 0 50px 0 30px;
   display: flex;
- 
 
   i {
-    color: $primary;
-    font-size: 60px;
+    color: $secondary;
+    font-size: 50px;
+    border-radius: 10px;
     cursor: pointer;
   }
 }

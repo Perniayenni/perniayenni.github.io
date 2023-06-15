@@ -4,7 +4,7 @@ import Paper from '../paper/paper'
 export const AboutMe = () => {
   return (
     <Paper > 
-      En construcción
+      En construcción...
     </Paper>
   )
 }
