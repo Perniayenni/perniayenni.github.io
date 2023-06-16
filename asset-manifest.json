@@ -1,23 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.b128b6c9.chunk.css",
-    "main.js": "/static/js/main.15b1f461.chunk.js",
-    "main.js.map": "/static/js/main.15b1f461.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.72d390a7.js",
-    "runtime-main.js.map": "/static/js/runtime-main.72d390a7.js.map",
-    "static/js/2.8af75a93.chunk.js": "/static/js/2.8af75a93.chunk.js",
-    "static/js/2.8af75a93.chunk.js.map": "/static/js/2.8af75a93.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.b128b6c9.chunk.css.map": "/static/css/main.b128b6c9.chunk.css.map",
-    "static/js/2.8af75a93.chunk.js.LICENSE.txt": "/static/js/2.8af75a93.chunk.js.LICENSE.txt",
-    "static/media/content_img.4fe6df45.png": "/static/media/content_img.4fe6df45.png",
-    "static/media/foto_carnet.2c5402cf.jpeg": "/static/media/foto_carnet.2c5402cf.jpeg",
-    "static/media/hexagono.7c587ddb.png": "/static/media/hexagono.7c587ddb.png"
+    "main.css": "/perniayenni.github.io/static/css/main.575ca6eb.css",
+    "main.js": "/perniayenni.github.io/static/js/main.15e30e74.js",
+    "static/media/hexagon.png": "/perniayenni.github.io/static/media/hexagon.7c587ddb0104779d3ce9.png",
+    "index.html": "/perniayenni.github.io/index.html",
+    "main.575ca6eb.css.map": "/perniayenni.github.io/static/css/main.575ca6eb.css.map",
+    "main.15e30e74.js.map": "/perniayenni.github.io/static/js/main.15e30e74.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.72d390a7.js",
-    "static/js/2.8af75a93.chunk.js",
-    "static/css/main.b128b6c9.chunk.css",
-    "static/js/main.15b1f461.chunk.js"
+    "static/css/main.575ca6eb.css",
+    "static/js/main.15e30e74.js"
   ]
 }
