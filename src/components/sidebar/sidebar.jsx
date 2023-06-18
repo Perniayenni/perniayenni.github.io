@@ -24,7 +24,6 @@ const SideBar = (props) => {
   return ReactDOM.createPortal(
     <div className={getBEMClasses('sidebar', {}, additionalClassName)} ref={content}>
       <div className='sidebar__content' ref={refBox} >
-        <div className='sidebar__close' onClick={onClose} >X</div>
         <div className='sidebar__children'>{children}</div>
         <div className='sidebar__footer'>{footer}</div>
       </div>

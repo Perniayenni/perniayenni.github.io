@@ -4,6 +4,15 @@
 
 @media screen and (max-width: 700px) {
     .experiences {
-      max-width: 410px;
+      width: 100%;
     }
+    .experience__content-titles {
+      label {
+          font-size: 20px;
+      }
+  
+      span {
+          font-size: 18px;
+      }
   }
+}
