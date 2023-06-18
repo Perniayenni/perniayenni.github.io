@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/perniayenni.github.io/static/css/main.575ca6eb.css",
-    "main.js": "/perniayenni.github.io/static/js/main.15e30e74.js",
+    "main.css": "/perniayenni.github.io/static/css/main.8e0b17b7.css",
+    "main.js": "/perniayenni.github.io/static/js/main.c1e855ff.js",
     "static/media/hexagon.png": "/perniayenni.github.io/static/media/hexagon.7c587ddb0104779d3ce9.png",
     "index.html": "/perniayenni.github.io/index.html",
-    "main.575ca6eb.css.map": "/perniayenni.github.io/static/css/main.575ca6eb.css.map",
-    "main.15e30e74.js.map": "/perniayenni.github.io/static/js/main.15e30e74.js.map"
+    "main.8e0b17b7.css.map": "/perniayenni.github.io/static/css/main.8e0b17b7.css.map",
+    "main.c1e855ff.js.map": "/perniayenni.github.io/static/js/main.c1e855ff.js.map"
   },
   "entrypoints": [
-    "static/css/main.575ca6eb.css",
-    "static/js/main.15e30e74.js"
+    "static/css/main.8e0b17b7.css",
+    "static/js/main.c1e855ff.js"
   ]
 }
