@@ -8,7 +8,7 @@ export const Experiences = () => {
       <Paper>
         <div className='experiences'>
           {experiences.map((experience, index) => (
-            <div>
+            <div key={index}>
               <ExperienceCard key={index} experience={experience}/>
             </div>
           ))}

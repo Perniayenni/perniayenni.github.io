@@ -39,7 +39,7 @@ export const Navbar = () => {
           </div>
           { screenSize.width < MIN_DESKTOP &&
             <div className='navbar__menu-icon'>
-              <Menu color='#FFFFFF' width='40' height='40' onClick={()=> setOpen(!open)}/>
+              <Menu color='#FFFFFF' width={40} height={40} onClick={()=> setOpen(!open)}/>
             </div>
           }
         </div>
