@@ -1,5 +1,5 @@
 import {
-  BrowserRouter,
+  HashRouter,
   Route,
   Routes,
 } from 'react-router-dom';
@@ -11,7 +11,7 @@ import { Experiences } from '../components/experiences/experiences';
 
 export const AppRouter = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route element={<Layout />}>
           <Route exact path='/' element={<HomeScreen/>} />
@@ -23,6 +23,6 @@ export const AppRouter = () => {
         </Route>
         
       </Routes>
-   </BrowserRouter>
+   </HashRouter>
   );
 };
