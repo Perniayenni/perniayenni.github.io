@@ -1,5 +1,6 @@
 import React from 'react'
 import { Collapsible } from '../collapsible/collapsible'
+import LazyImage from '../lazy-image/lazy-image'
 
 export const ExperienceCard = (props) => {
   const { experience }= props
@@ -7,7 +8,11 @@ export const ExperienceCard = (props) => {
   const getCollapsibleTitle = () => {
     return (
       <div className='experience__content-first'>
-        <img src={experience.img}/>
+        <LazyImage
+          width={100}
+          alt='lazy'
+          url={experience.img}
+          loader={<i className="fa fa-spinner fa-pulse fa-3x fa-fw"></i>}/>
         <div className='experience__content-titles'>
           <label>{experience.position}</label>
           <span>{experience.company_name}</span>

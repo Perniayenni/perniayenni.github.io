@@ -13,7 +13,7 @@ export const Collapsible = (props) => {
 
   return (
     <div id={id} className={getBEMClasses('collapsible',{}, additionalClassName)}>
-      <div className='collapsible__content'>
+      <div className='collapsible__content' onClick={toggleCollapse}>
         <div className='collapsible__title'>
           <label>{collapsibleTitle}</label>
         </div>

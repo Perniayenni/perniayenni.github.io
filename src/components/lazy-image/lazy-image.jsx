@@ -1,25 +1,41 @@
 import React, { useEffect, useState } from 'react'
 import PropTypes from 'prop-types'
 import { getBEMClasses } from '../shared/utils';
+import notFound from '../../assets/img/icon-image-not-found.jpg'
 
 const LazyImage = (props) => {
-  const { url, alt, width, loader, additionalClassName } = props
+  const { url, alt, width, loader, additionalClassName, loaderDuration } = props
   const [imageSrc, setImageSrc] = useState(null);
+  const [showLoader, setShowLoader] = useState(true);
+  const [haveError, setHaveError] = useState(false);
 
   useEffect(() => {
     const image = new Image();
     image.src = url;
     image.onload = () => {
       setImageSrc(url);
+      if (loaderDuration){
+        setTimeout(() => {
+          setShowLoader(false);
+        }, loaderDuration);
+      }else{
+        setShowLoader(false);
+      }
     };
-  }, [url]);
-  
 
-  if (!imageSrc) {
+    image.onerror = () => setHaveError(true)
+  
+  }, [url, loaderDuration]);
+
+  if (!imageSrc || showLoader) {
     return (
-      <div className={getBEMClasses('lazy-image', {}, additionalClassName)}>
-       {loader}
-      </div>
+      <>
+       { haveError ? (<img className={getBEMClasses('', {}, additionalClassName)} src={notFound} />) : (
+        <div className={getBEMClasses('lazy-image', {}, additionalClassName)}>
+          {loader}
+       </div>
+      ) }
+      </>
     )
   }else {
     return <img className={getBEMClasses('', {}, additionalClassName)} alt={alt} src={url} width={width} />
@@ -29,13 +45,15 @@ const LazyImage = (props) => {
 
 LazyImage.defaultProps = {
   url : null,
-  loader: '...'
+  loader: 'Loading...',
+  loaderDuration: null
 }
 
 LazyImage.propTypes = {
   additionalClassName: PropTypes.string,
   url: PropTypes.string,
-  loader: PropTypes.node
+  loader: PropTypes.node,
+  loaderDuration: PropTypes.number
 }
 
 export default LazyImage
